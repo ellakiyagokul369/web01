@@ -1,0 +1,73 @@
+body{
+    background-color:seashell;
+    margin: 50px 50px 0 50px;
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 95vh;
+}
+.main{
+    flex: 1;
+}
+h1{
+    font-size: 5rem;
+}
+
+footer p{
+    text-align: right;
+    color: midnightblue;
+}
+footer a{
+    text-align: left;
+    color: blue;
+}
+.creat {
+    color: blue;
+}
+.title-img{
+    height: 200px;
+    float: left;
+    margin-right: 50px;
+}
+.card{
+    width: 45%;
+}
+.left{
+    float: left;
+}
+.right{
+   
+    float: right;
+}
+div p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(77, 5, 145);
+
+}
+.card-title h2{
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(4, 105, 92);
+
+} 
+#logo{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgba(231, 7, 182, 0.753);
+}
+@media(max-width:680px) {
+    h1{
+        font-size: 3.5rem;
+        text-align: center;
+    }
+    .card{
+        width: 100%;
+        display: block;
+        margin-bottom: 30px;
+        text-align: justify;
+    }
+    .card img{
+        margin-bottom: 10px;
+        width: 100%;
+        display: inline;
+    }
+
+}
